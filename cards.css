@@ -1,0 +1,127 @@
+body {
+    margin: 100px;
+    text-align: center;
+    background-color: ivory;
+}
+
+.container {
+    display: inline-block;
+    margin: 2px;
+}
+
+.card {
+    display: block;
+    position: relative;
+    height: 440.45px;
+    width: 241px;
+    border: 0.5px;
+    border-style: ridge;
+    padding: 15px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: ghostwhite;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 2px whitesmoke
+}
+
+.img {
+    width: 90%
+}
+
+.description {
+    display: inline;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    text-size-adjust: 100%;
+    text-decoration-style: solid;
+    text-rendering: optimizeSpeed;
+    text-shadow: 0 0 black;
+}
+
+p:hover {
+    color: orangered;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#star {
+    display: inline;
+    float: left;
+    margin-left: 4px;
+}
+
+#drop {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+}
+
+#drop>span {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.534);
+}
+
+.price {
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.price-symbol::before {
+    content: "$";
+    font-size: x-small;
+    vertical-align: super;
+}
+
+.whole-price {
+    font-size: 21px;
+}
+
+.a-fraction {
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.portion-per-count {
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.918);
+}
+
+.portion-per-count:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.discount-sec {
+    display: inline;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(128, 128, 128, 0.952);
+}
+
+.color-base {
+    font-size: 14px;
+    line-height: 20px;
+    text-size-adjust: 100%;
+    font-family: inherit;
+    color: black;
+}
+
+.color-base-a-color-bold {
+    font-size: 15px;
+    line-height: 22px;
+    text-size-adjust: 100%;
+    font-family: inherit;
+    color: black;
+    font-weight: bold;
+}
